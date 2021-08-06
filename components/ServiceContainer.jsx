@@ -36,8 +36,8 @@ export const ServiceContainer = () => {
                dataServices.map(( {id,title,imgSrc,imgAlt,listItems} ) =>
 
                 (
-                <Col xs={12} sm={12} md={8} lg={4}>
-                   <CardService key={id.toString()} title={title} imgSrc={imgSrc} imgAlt={imgAlt} serviceInfo={listItems}/>
+                <Col xs={12} sm={12} md={8} lg={4} key={id}>
+                   <CardService key={id} title={title} imgSrc={imgSrc} imgAlt={imgAlt} serviceInfo={listItems}/>
                 </Col>
 
                 )
