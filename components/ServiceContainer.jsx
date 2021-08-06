@@ -37,7 +37,7 @@ export const ServiceContainer = () => {
 
                 (
                 <Col xs={12} sm={12} md={8} lg={4}>
-                   <CardService key={id} title={title} imgSrc={imgSrc} imgAlt={imgAlt} serviceInfo={listItems}/>
+                   <CardService key={id.toString()} title={title} imgSrc={imgSrc} imgAlt={imgAlt} serviceInfo={listItems}/>
                 </Col>
 
                 )
