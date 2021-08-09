@@ -7,6 +7,7 @@ import { Hero } from "../components/Hero";
 import { SectionDividerTop } from "../components/SectionDividerTop";
 import { SectionDividerBottom } from "../components/SectionDividerBottom";
 import { ServiceContainer } from "../components/ServiceContainer";
+import Carousel from "../components/Caruosel";
 
 export default function Home() {
   return (
@@ -34,7 +35,7 @@ export default function Home() {
         <Hero />
         <SectionDividerTop />
 
-        <ServiceContainer />
+        <Carousel />
       </Container>
 
       {/* <main className={styles.main}>
@@ -90,6 +91,7 @@ export default function Home() {
           </span>
         </a>
       </footer> */}
+       <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(195052)</script> 
     </div>
   );
 }
