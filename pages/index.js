@@ -26,8 +26,7 @@ export default function Home() {
         <meta name="copyright" content="L. Felipe Moreno & Asociados" />
         <title>Estudio L. Felipe Moreno & Asociados</title>
         <link rel="icon" href="/favicon.ico" />
-        <script src="https://account.snatchbot.me/script.js"></script>
-        <script>window.sntchChat.Init(195052)</script>
+        <ChatBotLink />
       </Head>
 
       <Container fluid className="main-container bg-light">
