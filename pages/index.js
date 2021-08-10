@@ -8,6 +8,7 @@ import { SectionDividerTop } from "../components/SectionDividerTop";
 import { SectionDividerBottom } from "../components/SectionDividerBottom";
 import { ServiceContainer } from "../components/ServiceContainer";
 import Carousel from "../components/Caruosel";
+import ChatBotLink from "../components/ChatBotLink";
 
 export default function Home() {
   return (
@@ -25,6 +26,8 @@ export default function Home() {
         <meta name="copyright" content="L. Felipe Moreno & Asociados" />
         <title>Estudio L. Felipe Moreno & Asociados</title>
         <link rel="icon" href="/favicon.ico" />
+        <script src="https://account.snatchbot.me/script.js"></script>
+        <script>window.sntchChat.Init(195052)</script>
       </Head>
 
       <Container fluid className="main-container bg-light">
@@ -91,7 +94,7 @@ export default function Home() {
           </span>
         </a>
       </footer> */}
-       <script src="https://account.snatchbot.me/script.js"></script><script>window.sntchChat.Init(195052)</script> 
+      {/* <ChatBotLink /> */}
     </div>
   );
 }
