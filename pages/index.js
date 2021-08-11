@@ -36,8 +36,8 @@ export default function Home() {
         <SectionDividerBottom />
         <Hero />
         <SectionDividerTop />
-
         <Carousel />
+        <SectionDividerBottom />
       </Container>
 
       {/* <main className={styles.main}>
