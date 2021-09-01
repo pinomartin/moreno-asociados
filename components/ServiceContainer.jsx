@@ -3,11 +3,11 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { dataServices } from "../data/services";
 import { CardService } from "./CardService";
-import { ContactButton } from "./ContactButton";
+import { ServiceButton } from "./ServiceButton";
 
 export const ServiceContainer = () => {
   return (
-    <>
+    <section>
       <Row className="text-center m-5">
         <Col xs={12}>
           <h1 id="servicios">Nuestros Servicios</h1>
@@ -28,9 +28,9 @@ export const ServiceContainer = () => {
       </Row>
       <Row className="justify-content-center text-center mb-5">
         <Col xs={12} sm={12} md={8} lg={4}>
-          <ContactButton />
+          <ServiceButton />
         </Col>
       </Row>
-    </>
+    </section>
   );
 };

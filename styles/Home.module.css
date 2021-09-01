@@ -14,6 +14,12 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.jumboCustom:hover{
+  filter: brightness(1.1);
+  filter:  contrast(1.1);
 }
 
 .jumboCustom header h2{
@@ -178,9 +184,9 @@
 .swiper__slide img {
   display: flex;
   width: 33%;
-  /* height: 25%; */
-  /* object-fit: cover; */
+  
 }
+
 
 
 /*-------------------------*/

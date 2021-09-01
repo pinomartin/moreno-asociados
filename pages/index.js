@@ -1,4 +1,4 @@
-import Head from "next/head";
+// import Head from "next/head";
 // import Image from "next/image";
 // import styles from "../styles/Home.module.css";
 import { Container } from "react-bootstrap";
@@ -8,12 +8,15 @@ import { SectionDividerTop } from "../components/SectionDividerTop";
 import { SectionDividerBottom } from "../components/SectionDividerBottom";
 import { ServiceContainer } from "../components/ServiceContainer";
 import Carousel from "../components/Caruosel";
-import ChatBotLink from "../components/ChatBotLink";
+// import ChatBotLink from "../components/ChatBotLink";
+import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
+import NavBar from "../components/NavigationBar";
 
 export default function Home() {
   return (
-    <div>
-      <Head>
+    <>
+      {/* <Head>
         <meta name="author" content="Martin Pino Web Developer" />
         <meta
           name="description"
@@ -27,18 +30,21 @@ export default function Home() {
         <title>Estudio L. Felipe Moreno & Asociados</title>
         <link rel="icon" href="/favicon.ico" />
         <ChatBotLink />
-      </Head>
+      </Head> */}
 
-      <Container fluid className="main-container bg-light">
-        <Header />
-        <SectionDividerTop />
-        <ServiceContainer />
-        <SectionDividerBottom />
-        <Hero />
-        <SectionDividerTop />
-        <Carousel />
-        <SectionDividerBottom />
-      </Container>
+      {/* <Container fluid className="main-container bg-light"> */}
+      <Header />
+      <NavBar />
+      <SectionDividerTop />
+      <ServiceContainer />
+      <SectionDividerBottom />
+      <Hero />
+      <SectionDividerTop />
+      <Carousel />
+      <SectionDividerBottom />
+      <ContactSection />
+      <Footer />
+      {/* </Container> */}
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
@@ -94,6 +100,6 @@ export default function Home() {
         </a>
       </footer> */}
       {/* <ChatBotLink /> */}
-    </div>
+    </>
   );
 }

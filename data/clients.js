@@ -21,7 +21,7 @@ export const dataClients = [
     imgAlt: "Servicio Laboral Previsional",
     title: "Laboral Previsional",
     width: 250,
-    height: 200,
+    height: 250,
   },
   {
     id: 4,
@@ -60,8 +60,8 @@ export const dataClients = [
     imgSrc: "/assets/clients/gonzalez.png",
     imgAlt: "Servicio Laboral Previsional",
     title: "Laboral Previsional",
-    width: 250,
-    height: 400,
+    width: 200,
+    height: 450,
   },
   {
     id: 9,
@@ -113,7 +113,7 @@ export const dataClients = [
   },
   {
     id: 15,
-    imgSrc: "/assets/clients/torshoes.png",
+    imgSrc: "/assets/clients/utzzia.png",
     imgAlt: "Servicio Laboral Previsional",
     title: "Laboral Previsional",
     width: 250,
@@ -121,7 +121,7 @@ export const dataClients = [
   },
   {
     id: 16,
-    imgSrc: "/assets/clients/utzzia.png",
+    imgSrc: "/assets/clients/torshoes.png",
     imgAlt: "Servicio Laboral Previsional",
     title: "Laboral Previsional",
     width: 250,
