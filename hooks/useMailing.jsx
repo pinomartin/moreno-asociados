@@ -1,19 +1,3 @@
-
-
-
-// const toastAlert = () => {
-//     console.log('HOLA SOY TOAST');
-//   toast.success("🚀 Mensaje enviado con éxito!!", {
-//     position: "bottom-left",
-//     autoClose: 3000,
-//     hideProgressBar: false,
-//     closeOnClick: true,
-//     pauseOnHover: true,
-//     draggable: true,
-//     progress: undefined,
-//   });
-// };
-
 const useMailing = () => {
 
   const sendEmail = async (emailAdress, data) => {
