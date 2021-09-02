@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* <Container fluid className="main-container bg-light"> */}
       <Header />
-      <NavBar />
+      <NavBar isHome={true} />
       <SectionDividerTop />
       <ServiceContainer />
       <SectionDividerBottom />
