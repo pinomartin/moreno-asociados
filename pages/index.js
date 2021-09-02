@@ -12,6 +12,7 @@ import Carousel from "../components/Caruosel";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavigationBar";
+import SectionDividerBottomColor from "../components/SectionDividerBottomColor";
 
 export default function Home() {
   return (
@@ -37,11 +38,12 @@ export default function Home() {
       <NavBar isHome={true} />
       <SectionDividerTop />
       <ServiceContainer />
-      <SectionDividerBottom />
+      <SectionDividerBottomColor />
       <Hero />
-      <SectionDividerTop />
+      <SectionDividerTop colorNoRadius={true} />
       <Carousel />
-      <SectionDividerBottom />
+      <SectionDividerBottomColor />
+      <Hero />
       <ContactSection />
       <Footer />
       {/* </Container> */}

@@ -1,17 +1,24 @@
 import React from "react";
 import Link from "next/link";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import styles from "../styles/Home.module.css";
+
 import Logo from "../public/logoHeader.svg";
 
 const NavigationBar = ({ isHome }) => {
   return (
     <>
-      <Navbar sticky="top" style={{backgroundColor:'#F0F6F6'}}variant="light" expand="md">
+      <Navbar
+        sticky="top"
+        style={{ backgroundColor: "#F0F6F6" }}
+        variant="light"
+        expand="md"
+      >
         <Container fluid>
           <Link href="/">
             <Navbar.Brand href="#home">
               <Logo alt="Logo" width="50" height="30" className="" />{" "}
-              L. Felipe Moreno & Asociados
+              <small>L. Felipe Moreno & Asociados</small>
             </Navbar.Brand>
           </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -20,8 +27,23 @@ const NavigationBar = ({ isHome }) => {
             className="justify-content-end"
           >
             <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
+              {isHome ? (
+                <>
+                  <Link href="/servicios">
+                    <span className="nav-link" style={{ cursor: "pointer" }}>
+                      Servicios
+                    </span>
+                  </Link>
+
+                  <a
+                    href="#contacto"
+                    className="nav-link"
+                    style={{ cursor: "pointer" }}
+                  >
+                    Contacto
+                  </a>
+                </>
+              ) : null}
             </Nav>
           </Navbar.Collapse>
         </Container>

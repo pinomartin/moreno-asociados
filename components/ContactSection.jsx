@@ -28,7 +28,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section>
+    <section id="contacto">
       <Row className="justify-content-center align-items-center mt-3 mb-5">
         <Col xs={12} sm={12} md={8} lg={4} className="text-center">
           <h1>Contáctanos</h1>

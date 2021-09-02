@@ -11,7 +11,7 @@ SwiperCore.use([Navigation]);
 const Caruosel = () => {
   return (
     <>
-      <Row className="text-center m-5">
+      <Row className="text-center mt-5 mb-3">
         <Col xs={12}>
           <h1 className="text-center">Nuestros Clientes</h1>
         </Col>
