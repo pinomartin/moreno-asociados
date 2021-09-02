@@ -35,14 +35,14 @@ export const Hero = () => {
 
   return (
     <>
-      <Jumbotron className={styles.hero}>
+      <Jumbotron className={styles.hero} style={{borderRadius: 0}}>
         <Row className={styles.heroRow}>
           <Col
             xs={12}
             md={4}
             className={[styles.heroColumn, styles.hero__column__quote]}
           >
-            <p>“El secreto para salir adelante es empezar.”</p>
+            <p className="text-white">“El secreto para salir adelante es empezar.”</p>
           </Col>
           <Col
             xs={12}
