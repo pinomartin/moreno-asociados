@@ -9,10 +9,10 @@ import { SectionDividerBottom } from "../components/SectionDividerBottom";
 import { ServiceContainer } from "../components/ServiceContainer";
 import Carousel from "../components/Caruosel";
 // import ChatBotLink from "../components/ChatBotLink";
-import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
 import NavBar from "../components/NavigationBar";
 import SectionDividerBottomColor from "../components/SectionDividerBottomColor";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
@@ -44,7 +44,8 @@ export default function Home() {
       <Carousel />
       <SectionDividerBottomColor />
       <Hero />
-      <ContactSection />
+      {/* <ContactSection /> */}
+      <Contact />
       <Footer />
       {/* </Container> */}
 
