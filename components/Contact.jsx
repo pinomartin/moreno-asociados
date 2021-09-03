@@ -39,7 +39,7 @@ const Contact = () => {
         <Row>
           <Col lg={6}>
             <div className={styles.info__box}>
-              <i class="las la-map-marked-alt"></i>
+              <i className="las la-map-marked-alt"></i>
               <h3>Nuestras oficinas</h3>
               <p>Av. Fernando Fader 3763. 1° Piso. Oficina C.</p>
               <p>Cerro de las Rosas. CP. 5009 - Córdoba - Argentina.</p>
@@ -48,7 +48,7 @@ const Contact = () => {
 
           <Col lg={3} md={6}>
             <div className={styles.info__box}>
-              <i class="las la-envelope"></i>
+              <i className="las la-envelope"></i>
               <h3>Envíanos un correo</h3>
               <small>
                 <a href="mailto:estudio@morenoyasociados.com.ar">
@@ -60,7 +60,7 @@ const Contact = () => {
 
           <Col lg={3} md={6}>
             <div className={styles.info__box}>
-              <i class="las la-phone-volume"></i>
+              <i className="las la-phone-volume"></i>
               <h3>Teléfono</h3>
               <p>+1 5589 55488 55</p>
             </div>
@@ -74,7 +74,7 @@ const Contact = () => {
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13626.045503260531!2d-64.2368631!3d-31.3724603!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c1d84d642962c0f!2sEstudio%20L.%20Felipe%20Moreno%20%26%20Asociados!5e0!3m2!1ses!2sar!4v1630711789747!5m2!1ses!2sar"
               frameBorder="0"
               style={{ border: 0, width: "100%", height: "384px" }}
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </Col>
 
