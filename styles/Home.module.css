@@ -1,15 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
 
-
 .main__container {
-  background-color: rgb(248,249,250);
+  background-color: rgb(248, 249, 250);
 }
 
-
-
 /*Navigation Bar */
-.noAnchorDecoration{
-  text-decoration: none!important;
+.noAnchorDecoration {
+  text-decoration: none !important;
 }
 
 /*---------Header*/
@@ -65,7 +62,7 @@
 }
 
 .serviceIcon:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .listItem__effect {
@@ -74,9 +71,10 @@
 
 .listItem__effect:hover {
   background-color: rgba(240, 246, 246, 1);
-  border: 2px solid rgba(66, 191, 221, 1) !important;
+  /* border-color: rgba(66, 191, 221, 1)!important; */
   cursor: pointer;
-  padding: 1rem 2rem;
+  transform: scale(1.01);
+  /* padding: 1rem 2rem; */
 }
 /*-------------------------*/
 
@@ -148,7 +146,7 @@
 /*-----HERO (About)*/
 
 .hero {
-  background-color: rgb(28, 34, 37)!important;
+  background-color: rgb(28, 34, 37) !important;
   margin: 0 !important;
   padding: 2rem !important;
 }
@@ -197,6 +195,26 @@
   }
 }
 
+/*About us Styles*/
+/* .about__background {
+  /* background-color: #006da6 !important; */
+/* }  */
+
+.about__text {
+  font-size: 1.4em;
+  text-align: left;
+  line-height: 2.3em;
+}
+
+.about__column__image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../public/about-us-img.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /*Carousel Styles -------------*/
 .swiper__container {
   width: 100%;
@@ -240,14 +258,17 @@
 }
 
 /* Firefox */
-.contactSection__numberInput[type=number] {
+.contactSection__numberInput[type="number"] {
   -moz-appearance: textfield;
 }
 
-
 /*----------NEW CONTACT SECTION*/
 
-.contact .info__box{
+.contact{
+  margin-top: 1.8rem;
+}
+
+.contact .info__box {
   color: #444444;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -324,13 +345,15 @@
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php_email_form input, .contact .php_email_form textarea {
+.contact .php_email_form input,
+.contact .php_email_form textarea {
   border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
 }
 
-.contact .php_email_form input:focus, .php_email_form textarea:focus {
+.contact .php_email_form input:focus,
+.php_email_form textarea:focus {
   border-color: #46a2f9;
 }
 
@@ -355,11 +378,9 @@
   background: #338adb;
 }
 
-
-
 /*Footer*/
-.footerCustom{
-  background-color: rgb(0,109,166)!important;
+.footerCustom {
+  background-color: rgb(0, 109, 166) !important;
   color: #fefefe;
   border-radius: 5px;
 }

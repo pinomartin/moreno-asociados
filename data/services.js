@@ -20,7 +20,7 @@ export const dataServices = [
         "listItems":{
              i1: "Asesoramiento en Gestión Administrativa.", 
              i2: "Registraciones Contables.",
-             i3: "Auditoría y Certificación de Estados Contables.",
+             i3: "Auditoría y Certificación de Balances.",
              i4: "Aplicación de Herramientas y Controles.",
              i5: "Auditorías de Control Interno."
             }
@@ -36,6 +36,19 @@ export const dataServices = [
            i3: "Seguridad Social y Trámites Jubilatorios.",
            i4: "Retenciones de Ganancias.",
            i5: "Contestaciones de Requerimientos."}
+
+    },
+    {
+        "id": 4,
+        "imgSrc": '/admin-icon.png',
+        "imgAlt": "Servicio Consultoria Gerencial",
+        "title": "Consultoria Gerencial",
+        "listItems": {
+           i1:"Reingeniería de procesos administrativos.",
+           i2: "Evaluación de proyectos de inversión.",
+           i3: "Informes de gestión para la Dirección.",
+           i4: "Fusiones y adquisiciones.",
+           i5: "Auditoria de Tecnología Informática."}
 
     }
     

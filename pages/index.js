@@ -5,7 +5,7 @@
 import { Header } from "../components/Header";
 import { Hero } from "../components/Hero";
 import { SectionDividerTop } from "../components/SectionDividerTop";
-import { SectionDividerBottom } from "../components/SectionDividerBottom";
+// import { SectionDividerBottom } from "../components/SectionDividerBottom";
 import { ServiceContainer } from "../components/ServiceContainer";
 import Carousel from "../components/Caruosel";
 // import ChatBotLink from "../components/ChatBotLink";
@@ -13,27 +13,11 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavigationBar";
 import SectionDividerBottomColor from "../components/SectionDividerBottomColor";
 import Contact from "../components/Contact";
+import About from "../components/About";
 
 export default function Home() {
   return (
     <>
-      {/* <Head>
-        <meta name="author" content="Martin Pino Web Developer" />
-        <meta
-          name="description"
-          content="L. Felipe Moreno & Asociados Contadores Públicos Servicios de Consultoria Laboral Contable AFIP Cordoba. Argentina"
-        />
-        <meta
-          name="keywords"
-          content="Estudio, Contable, Impuestos, Cordoba Capital, AFIP, Laboral, Jubilacion, Sueldos, Consultoria, Empresas, Clientes, Atencion"
-        />
-        <meta name="copyright" content="L. Felipe Moreno & Asociados" />
-        <title>Estudio L. Felipe Moreno & Asociados</title>
-        <link rel="icon" href="/favicon.ico" />
-        <ChatBotLink />
-      </Head> */}
-
-      {/* <Container fluid className="main-container bg-light"> */}
       <Header />
       <NavBar isHome={true} />
       <SectionDividerTop />
@@ -43,11 +27,11 @@ export default function Home() {
       <SectionDividerTop colorNoRadius={true} />
       <Carousel />
       <SectionDividerBottomColor />
-      <Hero />
-      {/* <ContactSection /> */}
+      <About />
+      <SectionDividerTop colorNoRadius={true} />
       <Contact />
       <Footer />
-      {/* </Container> */}
+     
 
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
