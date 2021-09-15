@@ -6,7 +6,7 @@ const About = () => {
   const quote = `Allá por el año 2000 los integrantes originales del Estudio, estuvieron asociados a profesionales de larga trayectoria en la Provincia.`
   const quote2 = `En el año 2007, iniciamos nuestro desafío como Moreno & Asociados.`;
   const quote3 = `El objetivo que llevamos adelante, consiste en que nuestros servicios se basan en el estudio, conocimiento y experiencia previa`;
-  const quote4 = `Estamos capacitados para planificar, estructurar e instrumentar, tanto en la faz patrimonial, jurídica, económica, como en la fiscal, los negocios planteados por nuestros clientes, desde su bosquejo a su puesta en funcionamiento, acompañando con el asesoramiento Fiscal, Laboral y Contable, todo el desarrollo.`
+  const quote4 = `Estamos capacitados para planificar, estructurar e instrumentar, tanto en la faz patrimonial, jurídica, económica, como en la fiscal, los negocios planteados por nuestros clientes.`
     
   return (
     <section>

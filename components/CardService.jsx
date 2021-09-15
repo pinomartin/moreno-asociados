@@ -13,7 +13,7 @@ export const CardService = ({ title, imgSrc, imgAlt, serviceInfo }) => {
       <Card.Body>
         <Card.Title>
           {" "}
-          <h2 className="text-center mb-4">{title}</h2>{" "}
+          <h5 className="text-center mb-4">{title}</h5>{" "}
         </Card.Title>
         <Card.Text>
           <ListGroup className="text-center">
