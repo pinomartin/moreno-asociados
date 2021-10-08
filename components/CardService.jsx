@@ -54,9 +54,6 @@ export const CardService = ({ title, imgSrc, imgAlt, serviceInfo }) => {
           </ListGroup>
         </Card.Text>
       </Card.Body>
-      {/* <Card.Footer>
-                    <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Footer> */}
     </Card>
   );
 };

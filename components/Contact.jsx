@@ -62,7 +62,7 @@ const Contact = () => {
             <div className={styles.info__box}>
               <i className="las la-phone-volume"></i>
               <h3>Teléfono</h3>
-              <p>+1 5589 55488 55</p>
+              <p>+54 351 7266646 </p>
             </div>
           </Col>
         </Row>
@@ -85,7 +85,7 @@ const Contact = () => {
                   <Form.Group controlId="formBasicEmail">
                     <Form.Label>Email</Form.Label>
                     <Form.Control
-                      type="email"
+                      type='email'
                       placeholder="contacto@gmail.com"
                       value={contactData.email}
                       onChange={(e) =>

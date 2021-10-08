@@ -146,7 +146,7 @@
 /*-----HERO (About)*/
 
 .hero {
-  background-color: rgb(28, 34, 37) !important;
+  background-color: rgb(28, 34, 37);
   margin: 0 !important;
   padding: 2rem !important;
 }
@@ -158,12 +158,14 @@
 .heroColumn {
   border-radius: 10px;
   height: 50vh;
+  margin: 0 auto;
 }
 
 .hero__column__quote {
   font-size: 2em;
   display: flex;
   align-items: center;
+  justify-content: center;
   text-align: justify;
 }
 
@@ -199,16 +201,26 @@
 /* .about__background {
   /* background-color: #006da6 !important; */
 /* }  */
+.about__textContainer{
+  font-size: 1.4em;
+  color: #dde3e9;
+  line-height: 2.3em;
+}
 
 .about__text {
   font-size: 1.4em;
   text-align: left;
-  line-height: 2.3em;
+}
+
+.about__contentContainer{
+  justify-content: center!important;
+  align-items: center!important;
 }
 
 .about__column__image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(../public/about-us-img.jpg);
+  border: 12px solid #dde3e9;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url(../public/about-us-img.jpg); */
   background-attachment: fixed;
   background-position: top center;
   background-size: cover;
@@ -226,6 +238,7 @@
   text-align: center;
   font-size: 18px;
   background: transparent;
+  cursor: grab;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -380,7 +393,6 @@
 
 /*Footer*/
 .footerCustom {
-  background-color: rgb(0, 109, 166) !important;
-  color: #fefefe;
+  background-color: rgba(240, 246, 246, 1)!important;
   border-radius: 5px;
 }

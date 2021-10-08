@@ -10,26 +10,24 @@ const About = () => {
     
   return (
     <section>
-      <Jumbotron className={[styles.hero, styles.about__background]} style={{ borderRadius: 0 }}>
-        <Row className={styles.heroRow}>
+      <Jumbotron className={[styles.hero, styles.about__background]} style={{ borderRadius: 0, background: 'linear-gradient(180deg, hsla(200, 14%, 13%, 1) 0%, hsla(201, 100%, 27%, 1) 100%);' }}>
+        <Row className={[styles.about__contentContainer]} xs={1} md={2}>
           <Col
-            xs={12}
-            md={6}
+           
             className={[
-              styles.heroColumn,
-              styles.about__column__image,
-              styles.hero__column__image__text,
-              styles.about__text,
+              // styles.heroColumn,
+              styles.about__textContainer
+              
             ]}
           >
-            {<p>{quote}</p>}
-            {<p>{quote2}</p>}
-            {<p>{quote3}</p>}
-            {<p>{quote4}</p>}
+            <p>{quote}</p>
+            <p>{quote2}</p>
+            <p>{quote3}</p>
+            <p>{quote4}</p>
           </Col>
           <Col
-            xs={12}
-            md={4}
+            // xs={12}
+            // md={4}
             className={[styles.heroColumn, styles.hero__column__quote]}
           >
             <p className="text-white text-right">“Más de 20 Años de Experiencia”</p>
