@@ -35,6 +35,7 @@ const Caruosel = () => {
                 width={client.width}
                 height={client.height}
                 layout="intrinsic"
+                priority={true}
               />
             </SwiperSlide>
           ))}

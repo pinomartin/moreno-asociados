@@ -190,7 +190,7 @@
 
 @media (min-width: 768px) {
   .heroColumn {
-    height: 80vh;
+    height: 75vh;
   }
   .hero__column__quote {
     font-size: 3.2em;
@@ -198,33 +198,36 @@
 }
 
 /*About us Styles*/
+
+.about__mainContainer {
+  margin: 0 auto;
+  padding: 0 3.5rem !important;
+}
 /* .about__background {
   /* background-color: #006da6 !important; */
 /* }  */
-.about__textContainer{
-  font-size: 1.4em;
-  color: #dde3e9;
-  line-height: 2.3em;
+.about__textSmall {
+  margin-top: 1rem;
+  font-size: 1.5em;
+  color: #202020;
+  line-height: 1.8em;
 }
 
-.about__text {
-  font-size: 1.4em;
-  text-align: left;
+.about__contentContainer {
+  justify-content: center !important;
+  align-items: center !important;
 }
 
-.about__contentContainer{
-  justify-content: center!important;
-  align-items: center!important;
-}
-
-.about__column__image {
-  border: 12px solid #dde3e9;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    url(../public/about-us-img.jpg); */
+.about__quote {
+  background-color: #1c2225;
+  border-radius: 10px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
+    url(../public/hero-img.jpg);
   background-attachment: fixed;
-  background-position: top center;
+  background-position: top bottom;
   background-size: cover;
   background-repeat: no-repeat;
+  color: #eee;
 }
 
 /*Carousel Styles -------------*/
@@ -277,7 +280,7 @@
 
 /*----------NEW CONTACT SECTION*/
 
-.contact{
+.contact {
   margin-top: 1.8rem;
 }
 
@@ -393,6 +396,6 @@
 
 /*Footer*/
 .footerCustom {
-  background-color: rgba(240, 246, 246, 1)!important;
+  background-color: rgba(240, 246, 246, 1) !important;
   border-radius: 5px;
 }

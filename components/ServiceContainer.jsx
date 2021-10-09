@@ -14,7 +14,7 @@ export const ServiceContainer = () => {
       </Row>
       <Row className="justify-content-center">
         {dataServices.map(({ id, title, imgSrc, imgAlt, listItems }) => (
-          <Col xs={12} sm={12} md={8} lg={3} key={id}>
+          <Col xs={12} sm={12} md={6} lg={3} key={id}>
             <CardService
               key={id}
               title={title}
