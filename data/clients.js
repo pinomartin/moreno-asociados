@@ -1,6 +1,14 @@
 export const dataClients = [
   {
     id: 1,
+    imgSrc: "/assets/clients/henisa.png",
+    imgAlt: "Henisa Sudamericana",
+    title: "Henisa Sudamericana",
+    width: 300,
+    height: 250,
+  },
+  {
+    id: 2,
     imgSrc: "/assets/clients/cipriano.png",
     imgAlt: "Cipriano Supermercado Mayorista",
     title: "Cipriano Supermercado Mayorista",
@@ -8,7 +16,7 @@ export const dataClients = [
     height: 250,
   },
   {
-    id: 2,
+    id: 3,
     imgSrc: "/assets/clients/coolhass.png",
     imgAlt: "Coolhass",
     title: "Coolhass",
@@ -16,20 +24,12 @@ export const dataClients = [
     height: 250,
   },
   {
-    id: 3,
+    id: 4,
     imgSrc: "/assets/clients/dabar.png",
     imgAlt: "Servicio Laboral Previsional",
     title: "Laboral Previsional",
     width: 250,
     height: 250,
-  },
-  {
-    id: 4,
-    imgSrc: "/assets/clients/dapconstrucciones.png",
-    imgAlt: "Dap Construcciones",
-    title: "Dap Construcciones",
-    width: 230,
-    height: 380,
   },
   {
     id: 5,
@@ -60,8 +60,8 @@ export const dataClients = [
     imgSrc: "/assets/clients/gonzalez.png",
     imgAlt: "Gonzalez S.R.L",
     title: "Gonzalez S.R.L",
-    width: 200,
-    height: 450,
+    width: 150,
+    height: 350,
   },
   {
     id: 9,
@@ -73,11 +73,11 @@ export const dataClients = [
   },
   {
     id: 10,
-    imgSrc: "/assets/clients/howard.png",
-    imgAlt: "Howard Johnson Hotel San Francisco",
-    title: "Howard Johnson Hotel San Francisco",
-    width: 300,
-    height: 300,
+    imgSrc: "/assets/clients/dapconstrucciones.png",
+    imgAlt: "Dap Construcciones",
+    title: "Dap Construcciones",
+    width: 230,
+    height: 380,
   },
   {
     id: 11,
@@ -108,8 +108,8 @@ export const dataClients = [
     imgSrc: "/assets/clients/simple.png",
     imgAlt: "simple",
     title: "simple",
-    width: 200,
-    height: 450,
+    width: 180,
+    height: 400,
   },
   {
     id: 15,
@@ -135,4 +135,12 @@ export const dataClients = [
     width: 300,
     height: 200,
   },
+  {
+    id: 18,
+    imgSrc: "/assets/clients/howard.png",
+    imgAlt: "Howard Johnson Hotel San Francisco",
+    title: "Howard Johnson Hotel San Francisco",
+    width: 300,
+    height: 300,
+  }
 ];

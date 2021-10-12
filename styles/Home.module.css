@@ -15,12 +15,20 @@
   margin: 1vh 0 !important;
   background-image: linear-gradient(rgba(0, 0, 0, 0.226), rgba(0, 0, 0, 0.349)),
     url(../public/header-img.jpg);
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   color: white;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 768px) {
+  .jumboCustom {
+    align-items: flex-end;
+    background-attachment: fixed;
+  }
 }
 
 .jumboCustom:hover {
@@ -218,16 +226,23 @@
   align-items: center !important;
 }
 
-.about__quote {
+.about__quote__image {
   background-color: #1c2225;
   border-radius: 10px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)),
     url(../public/hero-img.jpg);
-  background-attachment: fixed;
-  background-position: top bottom;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #eee;
+}
+
+@media (min-width: 768px) {
+  .about__quote__image {
+    background-attachment: fixed;
+    background-position: top bottom;
+    background-size: cover;
+  }
 }
 
 /*Carousel Styles -------------*/

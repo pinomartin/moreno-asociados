@@ -28,7 +28,7 @@ const About = () => {
           <Col
             // xs={12}
             // md={4}
-            className={[styles.heroColumn, styles.hero__column__quote, styles.about__quote]}
+            className={[styles.heroColumn, styles.hero__column__quote, styles.about__quote__image]}
           >
             <p className="text-right">“Más de 20 Años de Experiencia”</p>
           </Col>
