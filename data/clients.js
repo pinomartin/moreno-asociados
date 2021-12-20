@@ -56,6 +56,14 @@ export const dataClients = [
     height: 250,
   },
   {
+    id: 19,
+    imgSrc: "/assets/clients/grupo_donadio.png",
+    imgAlt: "Grupo Donadio",
+    title: "Grupo Donadio",
+    width: 350,
+    height: 350,
+  },
+  {
     id: 8,
     imgSrc: "/assets/clients/gonzalez.png",
     imgAlt: "Gonzalez S.R.L",

@@ -1,14 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import { Card, CardImg, ListGroup } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
+import 'animate.css';
+
 
 export const CardService = ({ title, imgSrc, imgAlt, serviceInfo }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const handleViewServices = () => {
+    setIsVisible(!isVisible);
+  }
+
   return (
     <Card className={["bg-light", styles.cardBody]}>
       <CardImg
         src={imgSrc}
         alt={imgAlt}
         className={["bg-light", styles.serviceIcon]}
+        onClick={handleViewServices}
       />
       <Card.Body>
         <Card.Title>
