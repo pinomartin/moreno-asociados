@@ -1,14 +1,13 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { Card, CardImg, ListGroup } from "react-bootstrap";
 import styles from "../styles/Home.module.css";
-import 'animate.css';
-
+import "animate.css";
 
 export const CardService = ({ title, imgSrc, imgAlt, serviceInfo }) => {
   const [isVisible, setIsVisible] = useState(false);
   const handleViewServices = () => {
     setIsVisible(!isVisible);
-  }
+  };
 
   return (
     <Card className={["bg-light", styles.cardBody]}>
@@ -20,11 +19,10 @@ export const CardService = ({ title, imgSrc, imgAlt, serviceInfo }) => {
       />
       <Card.Body>
         <Card.Title>
-          {" "}
-          <h5 className="text-center mb-4">{title}</h5>{" "}
+          <h3 className="text-center m-5">{title}</h3>
         </Card.Title>
         <Card.Text>
-          <ListGroup className="text-center">
+          {/* <ListGroup className="text-center">
             {
               <>
                 <ListGroup.Item
@@ -59,7 +57,7 @@ export const CardService = ({ title, imgSrc, imgAlt, serviceInfo }) => {
                 </ListGroup.Item>
               </>
             }
-          </ListGroup>
+          </ListGroup> */}
         </Card.Text>
       </Card.Body>
     </Card>

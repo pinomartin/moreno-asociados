@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { Navbar, Container, Nav } from "react-bootstrap";
-import styles from "../styles/Home.module.css";
 
 import Logo from "../public/logoHeader.svg";
 
@@ -39,17 +38,24 @@ const NavigationBar = ({ isHome }) => {
                       Servicios
                     </span>
                   </Link>
-
-                  <a
-                    href="#contacto"
-                    className="nav-link"
-                    style={{ cursor: "pointer" }}
-                    onClick={() => setExpanded(false)}
-                  >
-                    Contacto
-                  </a>
                 </>
-              ) : null}
+              ) : (
+                <>
+                  <Link href="/">
+                    <span className="nav-link" style={{ cursor: "pointer" }}>
+                      Home
+                    </span>
+                  </Link>
+                </>
+              )}
+              <a
+                href="#contacto"
+                className="nav-link"
+                style={{ cursor: "pointer" }}
+                onClick={() => setExpanded(false)}
+              >
+                Contacto
+              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>
