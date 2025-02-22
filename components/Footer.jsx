@@ -20,7 +20,7 @@ const Footer = () => {
       </Row>
       <Row className="justify-content-center">
         <Col xs={12} md={6} className="text-center">
-         <small>Desarrolado por<a href="https://pinomartin.netlify.app" target="_blank" rel="noreferrer"> MP Web Dev </a></small> 
+         <small>Desarrolado por<a href="https://clickandfix.netlify.app" target="_blank" rel="noreferrer"> Click & Fix </a></small> 
         </Col>
       </Row>
     </footer>
